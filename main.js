@@ -6,4 +6,10 @@ const result = p.split(" ").join("")
 alert("The Number is: " + result);
 
 
+location. reload();
+
+
+
+
+
 
