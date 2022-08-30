@@ -1,13 +1,13 @@
-const p = prompt("Enter the number", "")
+const p = prompt("Enter the text", "")
 
 
-const result = p.split(" ").join("")
+const result = p?.split(" ").join("").replaceAll("\t", "")
+
 
 alert("The Number is: " + result);
 
 
 location. reload();
-
 
 
 
